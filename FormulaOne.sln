@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOne.API", "FormulaOne.API\FormulaOne.API.csproj", "{F51106F9-E7BE-4AB8-8E50-294C0CEC988F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOne.Entities", "FormulaOne.Entities\FormulaOne.Entities.csproj", "{273AC3E8-EAF7-4D14-92A8-9374E24CC693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOne.DataService", "FormulaOne.DataService\FormulaOne.DataService.csproj", "{320D3F12-9C27-4EB5-92DB-9CD844E47884}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F51106F9-E7BE-4AB8-8E50-294C0CEC988F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F51106F9-E7BE-4AB8-8E50-294C0CEC988F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F51106F9-E7BE-4AB8-8E50-294C0CEC988F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273AC3E8-EAF7-4D14-92A8-9374E24CC693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273AC3E8-EAF7-4D14-92A8-9374E24CC693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273AC3E8-EAF7-4D14-92A8-9374E24CC693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273AC3E8-EAF7-4D14-92A8-9374E24CC693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320D3F12-9C27-4EB5-92DB-9CD844E47884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320D3F12-9C27-4EB5-92DB-9CD844E47884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320D3F12-9C27-4EB5-92DB-9CD844E47884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320D3F12-9C27-4EB5-92DB-9CD844E47884}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
